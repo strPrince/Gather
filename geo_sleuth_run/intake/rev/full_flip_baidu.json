@@ -1,0 +1,6 @@
+{
+ "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://graph.baidu.com/pcpage/index?tpl_from=pc\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+ "image": "D:\\DOC2.0\\geo_sleuth_run\\intake\\variants\\full_flip.jpg",
+ "engine": "baidu",
+ "screenshot": "D:\\DOC2.0\\geo_sleuth_run\\intake\\rev\\full_flip_baidu.png"
+}

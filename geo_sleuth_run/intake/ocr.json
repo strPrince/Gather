@@ -1,0 +1,65 @@
+{
+ "image": "F:\\dow\\IMG_20240617_193910-EDIT.jpg",
+ "size": [
+  4192,
+  1889
+ ],
+ "backend": "rapidocr",
+ "items": [
+  {
+   "text": "d2h",
+   "conf": 0.99,
+   "box": [
+    1339,
+    1680,
+    1561,
+    1829
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "Pairtel",
+   "conf": 0.874,
+   "box": [
+    2974,
+    1229,
+    3074,
+    1258
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "air",
+   "conf": 0.787,
+   "box": [
+    3124,
+    1113,
+    3175,
+    1134
+   ],
+   "pass": "up"
+  },
+  {
+   "text": "oairtg",
+   "conf": 0.786,
+   "box": [
+    3094,
+    1098,
+    3211,
+    1146
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "Vredren",
+   "conf": 0.773,
+   "box": [
+    1769,
+    1655,
+    1834,
+    1686
+   ],
+   "pass": "tile"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "targets": {
+    "/": {
+      "targetKind": "existing-ui",
+      "projectId": "5a3ffa22-eb8d-4a27-b1ad-f7c7a0e923bd",
+      "activeDraftId": "3f4d1cc4-dbe3-48b0-ad48-37877e82707c",
+      "designSystemPath": ".superdesign/design-system.md",
+      "contextFiles": [
+        ".superdesign/design-system.md",
+        "frontend/src/app/page.tsx",
+        "frontend/src/components/Sidebar.tsx",
+        "frontend/src/app/globals.css:1398:1526",
+        "frontend/src/app/globals.css:7:177"
+      ],
+      "fingerprints": {
+        ".superdesign/design-system.md": "A4AE60D092887D971182ABB12E7B7DB5357CB433BC1F8A0689327B53162F11F2",
+        "frontend/src/app/page.tsx": "716D705BF6778B8C4C71EE250538DE60B0274504D776E7D5A063EE076FCEB11F",
+        "frontend/src/components/Sidebar.tsx": "F5D0FA5C96DDE8891DF5A837792BF0A529E615FD2C9E86DCC00BF633B01C67C3",
+        "frontend/src/app/globals.css": "36932FAA60181DCDF9D7BC5316CC6F189DDBEEAF228AFFE096EF489C703040F9"
+      },
+      "drafts": {
+        "3f4d1cc4-dbe3-48b0-ad48-37877e82707c": {
+          "title": "Synapsribe dashboard — calm productivity",
+          "visualDirection": "flat warm-white productivity UI with forest-green utility accent",
+          "currentVersion": 1
+        }
+      },
+      "updatedAt": "2026-08-26T08:08:26.313Z"
+    }
+  }
+}

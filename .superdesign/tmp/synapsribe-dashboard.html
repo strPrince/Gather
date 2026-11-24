@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Synapsribe Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: #f7f7f5; color: #20211f; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .08em; }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen bg-[#f7f7f5]">
+    <div class="flex min-h-screen">
+      <aside class="flex w-60 shrink-0 flex-col border-r border-[#d9dad5] bg-white px-3 py-4">
+        <a id="brand-home" href="#dashboard" class="mb-8 flex items-center gap-3 rounded-md px-2 py-2 text-sm font-semibold text-[#20211f]">
+          <span class="flex h-8 w-8 items-center justify-center rounded-md bg-[#1a3c2b] text-white"><iconify-icon icon="lucide:file-text" width="17"></iconify-icon></span>
+          <span>Synapsribe</span>
+        </a>
+        <div class="mb-3 px-2 mono text-[10px] font-semibold text-[#6d706a]">WORKSPACE</div>
+        <nav class="space-y-1">
+          <a id="nav-dashboard" href="#dashboard" class="flex items-center gap-3 rounded-md bg-[#e8f0ea] px-3 py-2.5 text-sm font-medium text-[#1a3c2b]"><iconify-icon icon="lucide:layout-dashboard" width="17"></iconify-icon>Dashboard</a>
+          <a id="nav-new-document" href="#new-document" class="flex items-center gap-3 rounded-md px-3 py-2.5 text-sm text-[#41433f] hover:bg-[#f2f2ef]"><iconify-icon icon="lucide:plus" width="17"></iconify-icon>New document</a>
+        </nav>
+        <div class="mt-9 border-t border-[#d9dad5] pt-5">
+          <div class="mb-3 px-2 mono text-[10px] font-semibold text-[#6d706a]">RECENT</div>
+          <a id="nav-recent-document" href="#document-q3" class="flex items-start gap-3 rounded-md px-3 py-2.5 text-sm text-[#41433f] hover:bg-[#f2f2ef]">
+            <iconify-icon class="mt-0.5 text-[#6d706a]" icon="lucide:file-text" width="16"></iconify-icon>
+            <span class="min-w-0"><span class="block truncate">Q3 planning notes</span><span class="mt-1 block text-xs text-[#858780]">Edited just now</span></span>
+          </a>
+        </div>
+        <div class="mt-auto space-y-1 border-t border-[#d9dad5] pt-4">
+          <a id="nav-settings" href="#settings" class="flex items-center gap-3 rounded-md px-3 py-2.5 text-sm text-[#41433f] hover:bg-[#f2f2ef]"><iconify-icon icon="lucide:settings-2" width="17"></iconify-icon>Settings</a>
+          <a id="nav-sign-out" href="#sign-out" class="flex items-center gap-3 rounded-md px-3 py-2.5 text-sm text-[#b5443c] hover:bg-[#fff1f0]"><iconify-icon icon="lucide:log-out" width="17"></iconify-icon>Sign out</a>
+        </div>
+      </aside>
+
+      <main class="min-w-0 flex-1">
+        <header class="flex h-16 items-center justify-between border-b border-[#d9dad5] bg-[#f7f7f5] px-8">
+          <div class="flex items-center gap-3 text-sm text-[#6d706a]"><span class="mono text-[10px]">YOUR SPACE</span><span class="h-1 w-1 rounded-full bg-[#aeb0aa]"></span><span>12 documents</span></div>
+          <div class="flex items-center gap-4">
+            <button type="button" class="flex h-9 w-9 items-center justify-center rounded-md border border-[#d9dad5] bg-white text-[#41433f]" aria-label="Search"><iconify-icon icon="lucide:search" width="17"></iconify-icon></button>
+            <button type="button" class="flex items-center gap-2 text-sm font-medium"><span class="flex h-8 w-8 items-center justify-center rounded-full bg-[#d8e4d9] text-xs font-semibold text-[#1a3c2b]">AS</span><span>Alex Stone</span><iconify-icon icon="lucide:chevron-down" width="15"></iconify-icon></button>
+          </div>
+        </header>
+
+        <section id="dashboard" class="mx-auto max-w-6xl px-10 py-12">
+          <div class="flex items-end justify-between border-b border-[#d9dad5] pb-8">
+            <div>
+              <p class="mono mb-3 text-[10px] font-semibold text-[#6d706a]">DOCUMENTS</p>
+              <h1 class="text-[30px] font-semibold tracking-[-0.035em] text-[#20211f]">Good afternoon, Alex.</h1>
+              <p class="mt-2 text-[15px] text-[#6d706a]">Pick up where you left off or start a new note.</p>
+            </div>
+            <button type="button" class="inline-flex h-10 items-center gap-2 rounded-md bg-[#1a3c2b] px-4 text-sm font-medium text-white"><iconify-icon icon="lucide:plus" width="17"></iconify-icon>New document</button>
+          </div>
+
+          <div class="mt-8 flex items-center justify-between">
+            <div class="flex items-center gap-6"><h2 class="text-sm font-semibold">Recent documents</h2><span class="mono text-[10px] text-[#6d706a]">12 TOTAL</span></div>
+            <button type="button" class="inline-flex items-center gap-2 text-sm text-[#41433f]"><iconify-icon icon="lucide:arrow-up-down" width="15"></iconify-icon>Last edited</button>
+          </div>
+
+          <div class="mt-4 overflow-hidden rounded-lg border border-[#d9dad5] bg-white">
+            <a id="document-q3" href="#open-q3" class="group flex items-center gap-4 border-b border-[#d9dad5] px-5 py-4 hover:bg-[#fafaf8]">
+              <span class="flex h-9 w-9 items-center justify-center rounded-md bg-[#e8f0ea] text-[#1a3c2b]"><iconify-icon icon="lucide:file-text" width="18"></iconify-icon></span>
+              <span class="min-w-0 flex-1"><span class="block text-sm font-medium">Q3 planning notes</span><span class="mt-1 block text-xs text-[#858780]">Edited just now · 3 collaborators</span></span>
+              <span class="hidden items-center gap-1 sm:flex"><span class="flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-[#d8e4d9] text-[9px] font-semibold text-[#1a3c2b]">A</span><span class="flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-[#ead8c9] text-[9px] font-semibold text-[#8b4c32]">J</span></span>
+              <button type="button" class="ml-5 flex h-8 w-8 items-center justify-center rounded-md text-[#6d706a] group-hover:bg-white" aria-label="More actions"><iconify-icon icon="lucide:more-horizontal" width="18"></iconify-icon></button>
+            </a>
+            <a id="document-brief" href="#open-brief" class="group flex items-center gap-4 border-b border-[#d9dad5] px-5 py-4 hover:bg-[#fafaf8]">
+              <span class="flex h-9 w-9 items-center justify-center rounded-md bg-[#f1eee8] text-[#6c5a35]"><iconify-icon icon="lucide:file-text" width="18"></iconify-icon></span>
+              <span class="min-w-0 flex-1"><span class="block text-sm font-medium">Website brief</span><span class="mt-1 block text-xs text-[#858780]">Edited yesterday · Private</span></span>
+              <span class="text-xs text-[#858780]">Yesterday</span><button type="button" class="ml-5 flex h-8 w-8 items-center justify-center rounded-md text-[#6d706a] group-hover:bg-white" aria-label="More actions"><iconify-icon icon="lucide:more-horizontal" width="18"></iconify-icon></button>
+            </a>
+            <a id="document-research" href="#open-research" class="group flex items-center gap-4 px-5 py-4 hover:bg-[#fafaf8]">
+              <span class="flex h-9 w-9 items-center justify-center rounded-md bg-[#f4e9e6] text-[#a75540]"><iconify-icon icon="lucide:file-text" width="18"></iconify-icon></span>
+              <span class="min-w-0 flex-1"><span class="block text-sm font-medium">User research synthesis</span><span class="mt-1 block text-xs text-[#858780]">Edited 4 days ago · 6 collaborators</span></span>
+              <span class="text-xs text-[#858780]">Aug 22</span><button type="button" class="ml-5 flex h-8 w-8 items-center justify-center rounded-md text-[#6d706a] group-hover:bg-white" aria-label="More actions"><iconify-icon icon="lucide:more-horizontal" width="18"></iconify-icon></button>
+            </a>
+          </div>
+
+          <div class="mt-7 flex items-center gap-3 rounded-lg border border-dashed border-[#caccC5] px-5 py-4 text-sm text-[#6d706a]"><iconify-icon icon="lucide:folder-plus" width="18"></iconify-icon><span>Create a document to capture an idea, plan or decision.</span><button type="button" class="ml-auto font-medium text-[#1a3c2b]">Create document</button></div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

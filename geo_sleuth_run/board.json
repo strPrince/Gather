@@ -1,0 +1,49 @@
+{
+ "case": "geo_sleuth_run",
+ "photo": "F:\\dow\\IMG_20240617_193910-EDIT.jpg",
+ "created": "2026-10-07T19:46:24",
+ "candidates": {},
+ "clues": {
+  "K1": {
+   "text": "EXIF DateTimeOriginal 2024:06:17 19:39:10 +05:30, no GPS",
+   "kind": "metadata",
+   "status": "read",
+   "file": "D:\\DOC2.0\\geo_sleuth_run\\intake\\exif.json",
+   "source": "",
+   "used": false
+  },
+  "K2": {
+   "text": "OCR reads d2h and Airtel/Pairtel on satellite dishes; India DTH brands",
+   "kind": "text",
+   "status": "read",
+   "file": "D:\\DOC2.0\\geo_sleuth_run\\intake\\ocr.json",
+   "source": "",
+   "used": false
+  },
+  "K3": {
+   "text": "Yandex reverse-image result page includes Vadodara as a textual hint",
+   "kind": "reverse_image",
+   "status": "read",
+   "file": "D:\\DOC2.0\\geo_sleuth_run\\intake\\rev\\IMG_20240617_193910-EDIT_yandex.json",
+   "source": "",
+   "used": false
+  },
+  "K4": {
+   "text": "Google Maps confirms Karelibaug Water Tank at 22.319713,73.207102, address Guru Krupa Society, Karelibagh, Vadodara",
+   "kind": "poi",
+   "status": "read",
+   "file": "D:\\DOC2.0\\geo_sleuth_run\\google_maps_karelibaug.txt",
+   "source": "",
+   "used": false
+  }
+ },
+ "evidence": [],
+ "falsify": {},
+ "log": [
+  "19:51 clue K1 [metadata/read] EXIF DateTimeOriginal 2024:06:17 19:39:10 +05:30, no GPS",
+  "19:51 clue K2 [text/read] OCR reads d2h and Airtel/Pairtel on satellite dishes; India DTH brands",
+  "19:51 clue K3 [reverse_image/read] Yandex reverse-image result page includes Vadodara as a textual hint",
+  "19:51 clue K4 [poi/read] Google Maps confirms Karelibaug Water Tank at 22.319713,73.207102, address Guru Krupa Society, Karelibagh, Vadodara"
+ ],
+ "updated": "2026-10-07T19:51:32"
+}

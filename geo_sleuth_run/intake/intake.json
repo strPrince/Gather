@@ -1,0 +1,376 @@
+{
+ "photo": "F:\\dow\\IMG_20240617_193910-EDIT.jpg",
+ "exif": {
+  "file": "F:\\dow\\IMG_20240617_193910-EDIT.jpg",
+  "size": [
+   4192,
+   1889
+  ],
+  "software": "Picasa",
+  "DateTimeOriginal": "2024:06:17 19:39:10",
+  "OffsetTimeOriginal": "+05:30"
+ },
+ "ocr": [
+  {
+   "text": "d2h",
+   "conf": 0.99,
+   "box": [
+    1339,
+    1680,
+    1561,
+    1829
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "Pairtel",
+   "conf": 0.874,
+   "box": [
+    2974,
+    1229,
+    3074,
+    1258
+   ],
+   "pass": "full"
+  },
+  {
+   "text": "air",
+   "conf": 0.787,
+   "box": [
+    3124,
+    1113,
+    3175,
+    1134
+   ],
+   "pass": "up"
+  },
+  {
+   "text": "oairtg",
+   "conf": 0.786,
+   "box": [
+    3094,
+    1098,
+    3211,
+    1146
+   ],
+   "pass": "tile"
+  },
+  {
+   "text": "Vredren",
+   "conf": 0.773,
+   "box": [
+    1769,
+    1655,
+    1834,
+    1686
+   ],
+   "pass": "tile"
+  }
+ ],
+ "rev": [
+  {
+   "variant": "full_flip",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://graph.baidu.com/pcpage/index?tpl_from=pc\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "full_flip_baidu.png",
+   "json": "full_flip_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_flip",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain：sunset / закат / sunset evening / coucher du soleil / закат природа / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "1600×1200",
+     "url": "https://hungrymountaineer.com/wp-content/uploads/2017/02/fullsizerender-12-1600x1200.jpg",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "Christmas tree Archives - The Hungry Mountaineer",
+     "url": "https://hungrymountaineer.com/tag/christmas-tree/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "780×585",
+     "url": "https://hungrymountaineer.com/wp-content/uploads/2017/02/fullsizerender-12-780x585.jpg",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "It's Beginning to Look a Lot Like Christmas; Bangalore Edition - The Hungry Mountaineer",
+     "url": "https://hungrymountaineer.com/its-beginning-to-look-a-lot-like-christmas-bangalore-edition/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "1280×720",
+     "url": "https://i.ytimg.com/vi/kNMTvv668G8/maxresdefault.jpg",
+     "site": "i.ytimg.com"
+    },
+    {
+     "title": "5am Morning Routine /Everyday morning routine / - YouTube",
+     "url": "https://www.youtube.com/watch?v=kNMTvv668G8&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.youtube.com"
+    },
+    {
+     "title": "2560×1440",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Sunrise_view_from_an_apartment_balcony_in_Visakhapatnam.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:Sunrise view from an apartment balcony in Visakhapatnam.jpg - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Sunrise_view_from_an_apartment_balcony_in_Visakhapatnam.jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_flip_yandex.png",
+   "json": "full_flip_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://graph.baidu.com/pcpage/index?tpl_from=pc\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "full_gray_baidu.png",
+   "json": "full_gray_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_gray",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain：capital city of bangladesh / вид на город / panoramic view of ahmed pura & mustaid pura / Similar images / Show more similar images / Sites / 896×625"
+   ],
+   "links": [
+    {
+     "title": "ru.wikipedia.org",
+     "url": "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D0%BA%D0%BA%D0%B0?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ru.wikipedia.org"
+    },
+    {
+     "title": "896×625",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A_block.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "File:A block.jpg - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/File:A_block.jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "en.wikipedia.org"
+    },
+    {
+     "title": "File:A block.jpg - Wikipedia Republished // WIKI 2",
+     "url": "https://wiki2.org/en/File:A_block_jpg?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "wiki2.org"
+    },
+    {
+     "title": "120×84",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_block.jpg/120px-A_block.jpg",
+     "site": "upload.wikimedia.org"
+    },
+    {
+     "title": "Category:Cityscapes of Dhaka - Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/Category:Cityscapes_of_Dhaka?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "commons.wikimedia.org"
+    },
+    {
+     "title": "900×600",
+     "url": "https://cdn1.ozone.ru/s3/multimedia-p/6222889201.jpg",
+     "site": "cdn1.ozone.ru"
+    },
+    {
+     "title": "Магнитный пазл 27x18см.\"Амит, кумар, sheoran\" на холодильник купить на OZON по низкой цене (462916533)",
+     "url": "https://www.ozon.ru/product/magnitnyy-pazl-27x18sm-amit-kumar-sheoran-na-holodilnik-462916533/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.ozon.ru"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_gray_yandex.png",
+   "json": "full_gray_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_wb",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://graph.baidu.com/pcpage/index?tpl_from=pc\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "full_wb_baidu.png",
+   "json": "full_wb_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "full_wb",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain：a beautiful sunset / облака / sunset / закат / sunset image / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "en.wikipedia.org",
+     "url": "http://en.wikipedia.org/wiki/A%20Beautiful%20Sunset?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "en.wikipedia.org"
+    },
+    {
+     "title": "910×683",
+     "url": "https://p0.piqsels.com/preview/947/383/622/india-ujjain-travel-nature.jpg",
+     "site": "p0.piqsels.com"
+    },
+    {
+     "title": "750x1334px бесплатная загрузка Индия, Ujjain, путешествовать, природа, Cloudscape, солнце, заход солнца, облака, CC0, об",
+     "url": "https://www.piqsels.com/ru/public-domain-photo-oqnyo/download/750x1334?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.piqsels.com"
+    },
+    {
+     "title": "910×683",
+     "url": "https://c0.wallpaperflare.com/preview/947/383/622/india-ujjain-travel-nature.jpg",
+     "site": "c0.wallpaperflare.com"
+    },
+    {
+     "title": "Page 3 Terraced, Houses 1080P, 2K, 4K, 5K HD wallpapers free download WallpaperFlare",
+     "url": "https://www.wallpaperflare.com/search?wallpaper=Terraced%2C+Houses&page=3&utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.wallpaperflare.com"
+    },
+    {
+     "title": "india, ujjain, travel, nature, cloudscape, sun, sunset, clouds Piqsels",
+     "url": "https://www.piqsels.com/en/public-domain-photo-oqnyo?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.piqsels.com"
+    },
+    {
+     "title": "1600×1200",
+     "url": "https://hungrymountaineer.com/wp-content/uploads/2017/02/fullsizerender-12-1600x1200.jpg",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "Christmas tree Archives - The Hungry Mountaineer",
+     "url": "https://hungrymountaineer.com/tag/christmas-tree/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "hungrymountaineer.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "full_wb_yandex.png",
+   "json": "full_wb_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "IMG_20240617_193910-EDIT",
+   "engine": "baidu",
+   "guess": [],
+   "links": [],
+   "error": "Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://graph.baidu.com/pcpage/index?tpl_from=pc\nCall log:\n  - navigating to \"https://graph.baidu.com/pcpage/index?tpl_from=pc\", waiting until \"domcontentloaded\"\n",
+   "refused": false,
+   "shot": "IMG_20240617_193910-EDIT_baidu.png",
+   "json": "IMG_20240617_193910-EDIT_baidu.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  },
+  {
+   "variant": "IMG_20240617_193910-EDIT",
+   "engine": "yandex",
+   "guess": [
+    "Image appears to contain：sunset / закат / sunset sunset / sunset evening / закат природа / Similar images / Show more similar images"
+   ],
+   "links": [
+    {
+     "title": "1600×1200",
+     "url": "https://hungrymountaineer.com/wp-content/uploads/2017/02/fullsizerender-12-1600x1200.jpg",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "Christmas tree Archives - The Hungry Mountaineer",
+     "url": "https://hungrymountaineer.com/tag/christmas-tree/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "780×585",
+     "url": "https://hungrymountaineer.com/wp-content/uploads/2017/02/fullsizerender-12-780x585.jpg",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "It's Beginning to Look a Lot Like Christmas; Bangalore Edition - The Hungry Mountaineer",
+     "url": "https://hungrymountaineer.com/its-beginning-to-look-a-lot-like-christmas-bangalore-edition/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "hungrymountaineer.com"
+    },
+    {
+     "title": "900×600",
+     "url": "https://cdn1.ozone.ru/s3/multimedia-8/6115696592.jpg",
+     "site": "cdn1.ozone.ru"
+    },
+    {
+     "title": "Магнитный пазл 27x18см.\"Небо, заход солнца, природа\" на холодильник купить на OZON по низкой цене в Беларуси, Минске, Го",
+     "url": "https://ozon.by/product/magnitnyy-pazl-27x18sm-nebo-zahod-solntsa-priroda-na-holodilnik-464464908/?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "ozon.by"
+    },
+    {
+     "title": "910×607",
+     "url": "https://p3.hippopx.com/preview/447/5/sky-sunset-nature-beach-landscape-sea-evening-ocean-clouds-sun.jpg",
+     "site": "p3.hippopx.com"
+    },
+    {
+     "title": "architecture, church, old, travel, arch, stone, religion, grass, tree, building, antiquity Hippopx",
+     "url": "https://www.hippopx.com/en/free-photo-ovhaz?utm_medium=organic&utm_source=yandexsmartcamera",
+     "site": "www.hippopx.com"
+    }
+   ],
+   "error": null,
+   "refused": false,
+   "shot": "IMG_20240617_193910-EDIT_yandex.png",
+   "json": "IMG_20240617_193910-EDIT_yandex.json",
+   "similar_n": 0,
+   "similar_sites": [],
+   "similar_sheet": null,
+   "similar_note": null
+  }
+ ],
+ "votes": {
+  "city": {},
+  "place": {}
+ },
+ "status": {
+  "variants": "ok",
+  "edges": "ok",
+  "exif": "ok",
+  "ocr": "ok",
+  "rev-yandex": "ok",
+  "rev-baidu": "ok"
+ },
+ "timings": {
+  "variants": 5.6,
+  "edges": 6.1,
+  "exif": 22.9,
+  "ocr": 78.2,
+  "rev-yandex": 86.4,
+  "rev-baidu": 91.1
+ }
+}
